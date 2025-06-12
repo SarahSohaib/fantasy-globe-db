@@ -1,0 +1,50 @@
+body, html, #root, .app {
+  height: 100%;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0a0a0a;
+  color: #f0e6ff;
+  overflow: hidden;
+}
+
+.sidebar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  background: rgba(20, 20, 30, 0.9);
+  padding: 20px;
+  box-shadow: 2px 0 10px #000;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sidebar h2 {
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+  color: #ffd700;
+}
+
+.sidebar .info {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.sidebar p {
+  margin: 8px 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+button {
+  padding: 6px 12px;
+  border: none;
+  background-color: #ff4c4c;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
