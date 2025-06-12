@@ -1,12 +1,39 @@
-# React + Vite
+# 🧭 FantasyGlobeDB
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**FantasyGlobeDB** is a magical web application that lets users explore real-world locations on a stunning 3D globe, adorned with fantasy-inspired visuals and rich interactive features.
 
-Currently, two official plugins are available:
+🌍 Click a location.  
+🔍 Discover weather, local time, and headlines.  
+📌 Save your favorite realms to revisit later.  
+🧙 Built for explorers, dreamers, and developers alike.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🌐 **Interactive 3D Globe** — Powered by `react-globe.gl` and `three.js`
+- 🧭 **Clickable Locations** — Choose cities and fetch their fantasy profiles
+- ☁️ **Weather Info** — See the sky's mood over your chosen land
+- 🕒 **Local Time Display** — Know what hour it strikes in distant realms
+- 📰 **News Headlines** — Glimpse into the current tales of the city
+- ⭐ **Favorites System** — Save places to your Book of Realms
+- 🌘 **Dark Mode Aesthetic** — Elegant and immersive UI
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React + Vite
+- **Visualization:** react-globe.gl + three.js
+- **Icons:** react-icons
+- **APIs:** OpenWeather, NewsAPI, WorldTimeAPI (optional)
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/your-username/fantasy-globe-db.git
+cd fantasy-globe-db
+npm install
+npm run dev
